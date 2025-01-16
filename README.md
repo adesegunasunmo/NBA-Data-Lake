@@ -78,7 +78,8 @@ Run the setup script by typing the following command in the CloudShell terminal:
 
 ```bash
 python3 setup_nba_data_lake.py
-**If everything is configured correctly, you should see the following messages:**
+
+If everything is configured correctly, you should see the following messages:
 
 * Resources were successfully created.
 * Sample data was uploaded successfully.
