@@ -53,7 +53,7 @@ This guide outlines the steps to set up an NBA Data Lake using **AWS**, **Python
 
 1.  In the CloudShell terminal, type the following command:
 
-    ```bash
+    ```
     nano .env
     ```
 
@@ -78,12 +78,13 @@ Run the setup script by typing the following command in the CloudShell terminal:
 
 ```bash
 python3 setup_nba_data_lake.py
+```
 
 If everything is configured correctly, you should see the following messages:
 
-* Resources were successfully created.
-* Sample data was uploaded successfully.
-* Data Lake Setup Completed.
+- Resources were successfully created.
+- Sample data was uploaded successfully.
+- Data Lake Setup Completed.
 
 **Step 5: Verify the Setup**
 
@@ -106,8 +107,11 @@ Copy code
 SELECT FirstName, LastName, Position, Team
 FROM nba_players
 WHERE Position = 'PG';
+```
 
 Click **Run**. You should see query results under the "Query Results" section.
+
+---
 
 ### What I Learned
 
@@ -116,10 +120,14 @@ Click **Run**. You should see query results under the "Query Results" section.
 3. **API Integration:** Fetching data from external APIs and integrating it into AWS workflows.
 4. **Querying Data:** Using Amazon Athena to analyze data stored in an S3 data lake.
 
+---
+
 ### Future Enhancements
 1. Automate data ingestion workflows using AWS Lambda.
 2. Implement a data transformation layer with AWS Glue ETL.
 3. Add advanced analytics and visualizations using AWS QuickSight.
+
+---
 
 ### Contribute
 If you’d like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request. Feedback is always welcome!
