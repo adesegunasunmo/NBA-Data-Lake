@@ -4,6 +4,7 @@ This repository provides the setup_nba_data_lake.py script, a one-stop solution 
 - **Amazon S3:** Securely stores your NBA data, ready for analysis.
 - **AWS Glue:** Creates a data catalog for efficient data discovery.
 - **Amazon Athena:** Enables you to query your NBA data directly with SQL-like syntax.
+  
 With this setup, you'll have the infrastructure in place to store and analyze NBA data for insightful discoveries.
 
 ---
