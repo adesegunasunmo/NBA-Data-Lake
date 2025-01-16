@@ -107,8 +107,6 @@ If everything is configured correctly, you should see the following messages:
 2. Paste the following sample query into the Athena query editor:
 
 ```
-   sql
-Copy code
 SELECT FirstName, LastName, Position, Team
 FROM nba_players
 WHERE Position = 'PG';
