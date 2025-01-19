@@ -18,6 +18,8 @@ With this setup, you'll have the infrastructure in place to store and analyze NB
 *   **Basic Python Knowledge**: You'll use Python to run the setup script.
 
 ---
+## Architectural Overview
+<img width="632" alt="Screenshot 2025-01-19 215457" src="https://github.com/user-attachments/assets/77a3fdad-04ef-469c-a029-90e8b6d893d8" />
 
 ## Setup Instructions
 
